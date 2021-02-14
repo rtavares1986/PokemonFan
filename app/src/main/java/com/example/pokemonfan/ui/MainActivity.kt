@@ -10,6 +10,7 @@ import dagger.hilt.android.AndroidEntryPoint
  * It consists of an Activity with two fragments: PokemonListFragment and PokemonDetailFragment.
  * Each Fragment as a ViewModel and there is only one Module for all the application's lifetime.
  * The Repository only has access to the API services.
+ * The instrumentation tests are in the androidTest folder.
  */
 
 @AndroidEntryPoint
